@@ -3,7 +3,6 @@ package pages;
 import java.time.Duration;
 
 import config.TestBase;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -48,7 +47,7 @@ public class AbstractPage extends TestBase {
         waitUntilElementVisible(wb);
         wb.sendKeys(text);
     }
-    
+
     public void selectItemDropDown(String value, WebElement selectType){
         Select select = new Select(selectType);
         select.selectByValue(value);
