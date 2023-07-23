@@ -16,6 +16,8 @@ Tech stack used:
 
 * Java, Selenium WebDriver, Allure Reports, TestNG
 
+Automation Coverage is <strong>76,9%</strong>. 
+
 To run the tests:
 * Clone the repository
 * Have the following environment to run the test, you need:
