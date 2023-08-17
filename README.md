@@ -1,4 +1,3 @@
-# Terchnical Challenge DTI
 The project consists of automating a web application using the following methodology:
 
 1 - Application recognition (Exploration)\
